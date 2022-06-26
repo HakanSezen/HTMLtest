@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      a {
+        border: 1px solid gray;
+        padding: 5px 8px;
+        display: inline-block;
+        text-decoration: none;
+        width: 80px;
+        margin: 10px;
+        text-align: center;
+      }
+      a:link {
+        color: red;
+      }
+      a:visited {
+        color: green;
+      }
+      a:hover {
+        color: white;
+        background-color: yellow;
+      }
+      a:active {
+        color: white;
+        background-color: violet;
+      }
+      div:hover {
+        background-color: tomato;
+      }
+      div:hover p {
+        display: block;
+        /* background-color: white; */
+      }
+
+      div:active p {
+        display: block;
+      }
+      div p {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="css-oncelikler1.html" target="blank">Home</a>
+    <a href="combinators.html" target="blank">About</a>
+    <a href="broswer-defaults.html" target="blank">Products</a>
+
+    <div
+      style="
+        display: table-cell;
+        width: 300px;
+        margin: 0px;
+        background-color: yellow;
+      "
+    >
+      <h1
+        style="
+          display: table-cell;
+          width: 300px;
+          margin: 0px;
+          background-color: yellow;
+        "
+      ></h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, in!
+      </p>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  </body>
+</html>
